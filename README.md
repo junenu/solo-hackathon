@@ -17,17 +17,4 @@
 ## プロダクト一覧
 
 - day001_ai-chatbot: openai-nodeを使用したAIチャットボット
-
-### Day 001 - AI ChatBot
-
-- **ディレクトリ**: `day001_ai-chatbot`
-- **概要**: openai-nodeを使用したストリーミング対応のCLIチャットボット
-- **使用技術**:
-  - Node.js
-  - TypeScript
-  - OpenAI API
-  - ES Modules
-- **主な機能**:
-  - OpenAI APIを使用したテキスト生成
-  - JavaScriptの専門家として振る舞うプロンプト設計
-  - Node.js + TypeScriptでの実装
+- day002_ai-chatbot-streaming: OpenAI Agentsを使用したストリーミングAIチャットボット
