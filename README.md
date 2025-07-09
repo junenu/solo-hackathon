@@ -18,3 +18,4 @@
 
 - day001_ai-chatbot: openai-nodeを使用したAIチャットボット
 - day002_ai-chatbot-streaming: OpenAI Agentsを使用したストリーミングAIチャットボット
+- day003_password-checker: 正規表現を使用したパスワード強度チェッカー
