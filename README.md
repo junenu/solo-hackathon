@@ -20,3 +20,4 @@
 - day002_ai-chatbot-streaming: OpenAI Agentsを使用したストリーミングAIチャットボット
 - day003_password-checker: 正規表現を使用したパスワード強度チェッカー
 - day004_ai-chatbot-hitl: Human-in-the-loopを取り入れたAIチャットボット
+- day005_fortune_app: 今日の運勢占いアプリ
