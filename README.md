@@ -21,3 +21,4 @@
 - day003_password-checker: 正規表現を使用したパスワード強度チェッカー
 - day004_ai-chatbot-hitl: Human-in-the-loopを取り入れたAIチャットボット
 - day005_fortune_app: 今日の運勢占いアプリ
+- day006_pingood-go: Golangで作成したネットワーク疎通確認ツール

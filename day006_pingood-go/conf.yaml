@@ -1,0 +1,29 @@
+# ICMP parameters
+PING_COUNT: 3
+PING_INTERVAL: 0.5
+PING_TARGETS_IPV4:
+  - '8.8.8.8'
+  - '1.1.1.1'
+PING_TARGETS_IPV6:
+  - '2001:4860:4860::8888'
+  - '2606:4700:4700::1111'
+
+# Traceroute parameters
+TRACEROUTE_COUNT: 3
+TRACEROUTE_INTERVAL: 1.0
+TRACEROUTE_TARGET: '8.8.8.8'
+VIA_NW_DEVICES:
+  router: '192.168.1.1'
+  gateway: '10.0.0.1'
+
+# DNS check parameters
+DOMAIN_A_RECORDS:
+  - 'google.com'
+  - 'github.com'
+DOMAIN_AAAA_RECORDS:
+  - 'google.com'
+  - 'ipv6.google.com'
+
+# HTTP check parameters
+HTTP_IPV4_TARGET: 'https://www.google.com'
+HTTP_IPV6_TARGET: 'https://ipv6.google.com'
