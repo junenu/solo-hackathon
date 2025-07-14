@@ -23,3 +23,4 @@
 - day005_fortune_app: 今日の運勢占いアプリ
 - day006_pingood-go: Golangで作成したネットワーク疎通確認ツール
 - day007_sysmon-go: Golangで作成したシステムモニター（CPU/メモリ使用率表示）
+- day008_pomodoro-timer: ポモドーロテクニック用CLIタイマー（作業時間管理）
