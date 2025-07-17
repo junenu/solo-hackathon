@@ -10,7 +10,7 @@
 
 ## スクリーンショット
 
-![Network Checker GUI](~/Desktop/1.png)
+![Network Checker GUI](screenshot.png)
 
 実際の動作例：
 - Google DNS（8.8.8.8）へのPingテスト実行
