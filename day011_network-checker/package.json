@@ -1,0 +1,36 @@
+{
+  "name": "day011_network-checker",
+  "version": "1.0.0",
+  "description": "Electron-based GUI network connectivity checker",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && electron .",
+    "build": "tsc && webpack",
+    "dev": "npm run build && electron .",
+    "dist": "npm run build && electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@types/node": "^24.0.14",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "electron": "^37.2.3",
+    "electron-builder": "^26.0.12",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.8.3",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
