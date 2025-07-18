@@ -26,3 +26,5 @@
 - day008_pomodoro-timer: ポモドーロテクニック用CLIタイマー（作業時間管理）
 - day009_encrypted-notes: AES-256暗号化を使用したセキュアなメモ帳アプリ
 - day010_csv-tool: CSVファイルのフィルタリング、ソート、集計を行うCLIツール
+- day011_network-checker: Electronで作成したGUI版ネットワーク接続性チェッカー
+- day012_timeline-sns: リアルタイムタイムライン機能を持つSNSアプリケーション
