@@ -1,5 +1,57 @@
 # Solo Hackathon Progress
 
+## Day 013 - 2025/07/19
+- **プロダクト**: day013_ipaddr-ext
+- **概要**: IPアドレス操作ライブラリ（Ruby ipaddr-extのTypeScript版）
+- **使用技術**: TypeScript, Jest
+- **実装内容**:
+  - IPv4/IPv6アドレスのパースと操作
+  - CIDR記法のサポート
+  - アドレスの算術演算（加算・減算）
+  - ブロードキャストアドレス取得（IPv4）
+  - ワイルドカードマスク計算（IPv4）
+  - ホストアドレスへの変換
+  - プレフィックス付きJSON出力
+  - IPv6アドレスの省略形式対応（::記法）
+- **学んだこと**:
+  - TypeScriptでのビット演算とBigInt活用
+  - IPv6アドレスの正規化と省略形式への変換
+  - IPアドレスのバイナリ表現とマスク計算
+  - Jestによる包括的なテストケース作成
+
+## Day 012 - 2025/07/17
+- **プロダクト**: day012_timeline-sns
+- **概要**: リアルタイムタイムライン機能を持つSNSアプリケーション
+- **使用技術**: TypeScript, React, Node.js, Socket.IO, Express, SQLite
+- **実装内容**:
+  - ユーザー認証（JWT）
+  - 投稿の作成・表示（リアルタイム更新）
+  - フォロー/フォロワー機能
+  - タイムライン（フォローしているユーザーの投稿表示）
+  - WebSocketによるリアルタイム通信
+- **学んだこと**:
+  - Socket.IOによるリアルタイム双方向通信
+  - JWTを使った認証実装
+  - SQLiteでのリレーショナルデータ管理
+  - React HooksとContext APIの活用
+
+## Day 011 - 2025/07/17
+- **プロダクト**: day011_network-checker
+- **概要**: Electronで作成したGUI版ネットワーク接続性チェッカー
+- **使用技術**: TypeScript, Electron, React, Material-UI
+- **実装内容**:
+  - 複数ホストへのping実行と結果表示
+  - レスポンスタイムの履歴グラフ表示
+  - DNS解決機能
+  - カスタムDNSサーバー設定
+  - エクスポート機能（CSV/JSON）
+  - ダークモード対応
+- **学んだこと**:
+  - ElectronでのIPC通信とセキュリティ設定
+  - node:dnsとnode:net APIの活用
+  - Material-UIを使ったレスポンシブデザイン
+  - Rechartsによるデータビジュアライゼーション
+
 ## Day 010 - 2025/07/16
 - **プロダクト**: day010_csv-tool
 - **概要**: CSVファイルに対してフィルタリング、ソート、集計を行うコマンドラインツール
