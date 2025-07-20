@@ -1,5 +1,22 @@
 # Solo Hackathon Progress
 
+## Day 014 - 2025/07/20
+- **プロダクト**: day014_mac-address-highlighter
+- **概要**: Webページ上のMACアドレスを検出してハイライト表示するChrome拡張機能
+- **使用技術**: JavaScript, Chrome Extensions API (Manifest V3)
+- **実装内容**:
+  - 複数形式のMACアドレス検出（XX:XX:XX:XX:XX:XX, XX-XX-XX-XX-XX-XX, XXXX.XXXX.XXXX, XXXXXXXXXXXX）
+  - リアルタイムハイライト表示機能
+  - ポップアップUIでのON/OFF切り替え
+  - ハイライト色のカスタマイズ機能
+  - 検出したMACアドレス数の表示
+  - 設定の永続化（Chrome Storage API）
+- **学んだこと**:
+  - Chrome拡張機能の開発（Manifest V3）
+  - Content Scriptによるページ内容の動的変更
+  - 正規表現による複数パターンのマッチング
+  - Chrome Storage APIを使った設定の保存
+
 ## Day 013 - 2025/07/19
 - **プロダクト**: day013_ipaddr-ext
 - **概要**: IPアドレス操作ライブラリ（Ruby ipaddr-extのTypeScript版）

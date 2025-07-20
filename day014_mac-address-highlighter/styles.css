@@ -1,0 +1,9 @@
+.mac-highlight {
+  background-color: #ffff00;
+  color: #000;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 2px;
+}
