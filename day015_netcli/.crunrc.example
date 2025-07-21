@@ -1,0 +1,24 @@
+# crun configuration file example
+# Format: add <type> <pattern> <value>
+
+# User configuration
+add user router* admin
+add user switch* netadmin
+add user 192.168.* localadmin
+
+# Password configuration
+add password router* secretpass123
+add password switch* switchpass456
+add password 192.168.* localpass789
+
+# Enable password configuration
+add enable router* enablesecret123
+add enable switch* enablesecret456
+
+# Connection method (ssh or telnet)
+add method old-router* telnet
+add method * ssh
+
+# Port configuration
+add port old-router* 23
+add port * 22

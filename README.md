@@ -30,3 +30,4 @@
 - day012_timeline-sns: リアルタイムタイムライン機能を持つSNSアプリケーション
 - day013_ipaddr-ext: IPアドレス操作ライブラリ（TypeScript版ipaddr-ext）
 - day014_mac-address-highlighter: Webページ上のMACアドレスをハイライト表示するChrome拡張機能
+- day015_netcli: crun - Cisco Run（Go版clogin、AI向けクリーン出力）
