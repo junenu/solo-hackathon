@@ -1,5 +1,24 @@
 # Solo Hackathon Progress
 
+## Day 017 - 2025/07/23
+- **プロダクト**: day017_task-tracker-api
+- **概要**: RESTful タスク管理API。SQLiteを使ったCRUD操作とフィルタリング機能を提供
+- **使用技術**: TypeScript, Express, SQLite3, tsx
+- **実装内容**:
+  - タスクのCRUD操作（作成・読み取り・更新・削除）
+  - カテゴリ別管理機能
+  - 優先度設定（low/medium/high）
+  - ステータス管理（todo/in_progress/done）
+  - 期限設定と管理
+  - 検索・フィルタリング機能（ステータス、優先度、カテゴリ、キーワード）
+  - SQLiteデータベース使用
+  - RESTful API設計
+- **学んだこと**:
+  - Express.jsによるREST API実装
+  - SQLiteでのデータベース操作とマイグレーション
+  - TypeScriptでの型安全なAPI開発
+  - クエリパラメータによる動的フィルタリング実装
+
 ## Day 016 - 2025/07/22
 - **プロダクト**: day016_port-scanner
 - **概要**: 高速なTCPポートスキャナーCLIツール。並行処理により効率的にポートをスキャン
