@@ -1,5 +1,40 @@
 # Solo Hackathon Progress
 
+## Day 019 - 2025/07/26
+- **プロダクト**: day019_mcp-server
+- **概要**: Model Context Protocol (MCP) サーバーのTypeScript実装。各種ツールとリソースを提供
+- **使用技術**: TypeScript, @modelcontextprotocol/sdk, Node.js
+- **実装内容**:
+  - MCPプロトコル準拠のサーバー実装
+  - 3つのツール実装（calculate: 数式計算、fetch_url: URL取得、uppercase: 大文字変換）
+  - 2つのリソース実装（greeting: 挨拶メッセージ、time: 現在時刻）
+  - StdioServerTransportによるstdio通信
+  - エラーハンドリングと型安全な実装
+  - テスト用クライアントの実装
+  - Claude Desktopとの統合対応
+- **学んだこと**:
+  - MCP SDKを使ったサーバー開発
+  - ツールとリソースの違いと実装方法
+  - stdio通信によるプロセス間通信
+  - Claude DesktopへのMCPサーバー統合方法
+
+## Day 018 - 2025/07/25
+- **プロダクト**: day018_kanban-board
+- **概要**: ドラッグ&ドロップ対応のカンバンボードタスク管理ツール
+- **使用技術**: TypeScript, Next.js 14 (App Router), React DnD, Tailwind CSS
+- **実装内容**:
+  - ドラッグ&ドロップによるタスクの移動
+  - 3つのステータス（Todo, In Progress, Done）
+  - タスクの追加・編集・削除機能
+  - ローカルストレージによるデータ永続化
+  - レスポンシブデザイン
+  - モーダルによるタスク詳細編集
+- **学んだこと**:
+  - React DnDを使ったドラッグ&ドロップ実装
+  - Next.js App Routerでのクライアントコンポーネント設計
+  - カスタムフックによる状態管理
+  - Tailwind CSSでのレスポンシブデザイン
+
 ## Day 017 - 2025/07/23
 - **プロダクト**: day017_task-tracker-api
 - **概要**: RESTful タスク管理API。SQLiteを使ったCRUD操作とフィルタリング機能を提供

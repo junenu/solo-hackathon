@@ -34,3 +34,4 @@
 - day016_port-scanner: 高速TCPポートスキャナー（並行処理対応）
 - day017_task-tracker-api: RESTful タスク管理API（SQLite使用、フィルタリング機能付き）
 - day018_kanban-board: ドラッグ&ドロップ対応のカンバンボードタスク管理ツール（TypeScript, Next.js App Router）
+- day019_mcp-server: Model Context Protocol (MCP) サーバー実装（TypeScript）
